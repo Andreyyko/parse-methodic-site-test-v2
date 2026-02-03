@@ -2,6 +2,7 @@ import FrameWrapper from "@/components/common/FrameWrapper";
 import InfoBlock from "@/components/common/InfoBlock";
 import ListBlock from "@/components/common/ListBlock";
 import { getMethodicBySlug } from "@/constant/methodics-sections/getMethodicBySlug";
+import { methodic_image } from "@/public/images/MethodicsListImage";
 import { notFound } from "next/navigation";
 
 type PageProps = {
@@ -33,6 +34,9 @@ export default async function MethodicDetailPage({ params }: PageProps) {
             {data.title}
           </h2>
         </FrameWrapper>
+        <div className="pt-12.5">
+          <FrameWrapper src={methodic_image.METHODIC_IMAGE} alt={"flower"} />
+        </div>
       </div>
       <div className="flex flex-col md:flex-row justify-between pt-20 gap-12.5 md:gap-0">
         <div className="flex flex-col w-full md:w-[35%] gap-12.5 md:gap-20">
