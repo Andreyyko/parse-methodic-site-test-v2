@@ -1,7 +1,12 @@
-import { mockMethodics } from "./methodics-sections";
+import { PscyhoSectionMethodic } from "./PscyhoSectionMethodic";
+import { LifeSectionMethodic } from "./LifeSectionMethodic";
 
 export async function getMethodicsSectionsBySlug(category: string) {
+  const sections = [
+    ...PscyhoSectionMethodic,
+    ...LifeSectionMethodic,
+  ];
   console.log("FETCH category:", category);
 
-  return mockMethodics.find((m) => m.category === category) || null;
+  return sections.find((m) => m.category === category) || null;
 }

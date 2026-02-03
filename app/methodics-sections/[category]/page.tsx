@@ -16,7 +16,10 @@ type PageProps = {
 
 const ITEMS_PER_PAGE = 20;
 
-export default async function MethodicPage({ params, searchParams }: PageProps) {
+export default async function MethodicPage({
+  params,
+  searchParams,
+}: PageProps) {
   const { category } = await params;
   const { page } = await searchParams;
 
@@ -42,9 +45,8 @@ export default async function MethodicPage({ params, searchParams }: PageProps) 
   return (
     <section className="px-5 flex flex-col items-center bg-[url('/images/CatalogMethodicsPage/backgrounds/MethodicsListBackGrounds.svg')] overflow-hidden relative pb-10">
       <div className="absolute flex flex-row justify-between items-center w-[98%] top-175 md:top-125">
-        <h4 className="heading-4 text-left w-[50%] pt-10 md:w-[20%]">
-          Методики, що допомагають відновити діалог, довіру та спільну опору в
-          стосунках
+        <h4 className="heading-4 text-left w-[50%] pt-10 md:w-[30%] hidden md:block">
+          {methodic.subtitle}
         </h4>
         <Image
           src={white_letter.WHITE_POSTCARD}
@@ -65,8 +67,15 @@ export default async function MethodicPage({ params, searchParams }: PageProps) 
         {methodic.mobtitle}
       </h2>
 
-      <PhotoFrame src={methodic.heroImage.url} alt={methodic.heroImage.alt} />
-
+      <PhotoFrame
+        src={methodic.heroImage.url}
+        alt={methodic.heroImage.alt}
+        letterVariant="large"
+        mobileWidth={"90%"}
+      />
+      <h4 className="heading-4 text-left w-full pt-10 md:w-[30%] block md:hidden">
+        {methodic.subtitle}
+      </h4>
       <div className="pt-62 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {paginatedMethods.map((card) => (
           <Link
@@ -92,7 +101,9 @@ export default async function MethodicPage({ params, searchParams }: PageProps) 
               key={i}
               href={`/methodics-sections/${category}?page=${i + 1}`}
               className={`px-4 py-3 rounded-3xl border heading-4 ${
-                currentPage === i + 1 ? "bg-brand-bordo rounded-3xl text-white" : ""
+                currentPage === i + 1
+                  ? "bg-brand-bordo rounded-3xl text-white"
+                  : ""
               }`}
             >
               {i + 1}

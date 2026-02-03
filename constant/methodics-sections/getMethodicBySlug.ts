@@ -1,8 +1,15 @@
-import { mockMethodics } from "@/constant/methodics-sections/methodics-sections";
+import { PscyhoSectionMethodic } from "@/constant/methodics-sections/PscyhoSectionMethodic";
+import { LifeSectionMethodic } from "@/constant/methodics-sections/LifeSectionMethodic";
 
 export async function getMethodicBySlug(slug: string) {
-  for (const section of mockMethodics) {
+  const sections = [
+    ...PscyhoSectionMethodic,
+    ...LifeSectionMethodic,
+  ];
+
+  for (const section of sections) {
     const method = section.methods.find((m) => m.slug === slug);
+
     if (method) {
       return {
         ...method,
@@ -12,5 +19,6 @@ export async function getMethodicBySlug(slug: string) {
       };
     }
   }
+
   return null;
 }

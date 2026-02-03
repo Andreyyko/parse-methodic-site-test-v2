@@ -36,7 +36,7 @@ export default async function MethodicDetailPage({ params }: PageProps) {
       </div>
       <div className="flex flex-col md:flex-row justify-between pt-20 gap-12.5 md:gap-0">
         <div className="flex flex-col w-full md:w-[35%] gap-12.5 md:gap-20">
-          <InfoBlock title={"Автор / Джерело"} children={data.author_source} />
+          <InfoBlock title={"Автор / Джерело:"} children={data.author_source} />
           <InfoBlock
             title={"Психотерапевтичний напрям / Підхід:"}
             children={data.approach}
@@ -45,10 +45,10 @@ export default async function MethodicDetailPage({ params }: PageProps) {
             title={"Вік / Цільова група:"}
             children={data.target_audience}
           />
-          <InfoBlock title={"Мета"} children={data.goal} />
+          <InfoBlock title={"Мета:"} children={data.goal} />
           {data.purpose && (
           <InfoBlock
-            title={"Призначення"}
+            title={"Призначення:"}
             children={data.purpose}
             className="w-full "
           />
@@ -56,21 +56,27 @@ export default async function MethodicDetailPage({ params }: PageProps) {
         </div>
         <div className="flex flex-col w-full md:w-1/2 gap-12.5 md:gap-20">
           <InfoBlock
-            title={"Терапевтичний ефект"}
+            title={"Терапевтичний ефект:"}
             children={data.therapeutic_effect}
             className="w-full md:w-4/5"
           />
           {data.materials && (
             <InfoBlock
-              title="Матеріали"
+              title="Матеріали:"
               children={data.materials}
               className="w-full md:w-4/5"
             />
           )}
-
-          <InfoBlock title="Інструкція" children={data.instruction} />
+          {data.short_instruction && (
+            <InfoBlock
+              title="Інструкція коротка:"
+              children={data.short_instruction}
+              className="w-full md:w-4/5"
+            />
+          )}
+          <InfoBlock title="Інструкція:" children={data.instruction} />
           <div className="flex flex-col gap-4">
-            <h3 className="heading-3 uppercase">рефлексія</h3>
+            <h3 className="heading-3 uppercase">запитання до рефлексії:</h3>
             <ListBlock items={data.reflection_questions ?? []} />
           </div>
         </div>
