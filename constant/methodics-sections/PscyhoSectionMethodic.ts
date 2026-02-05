@@ -2958,7 +2958,7 @@ export const PscyhoSectionMethodic = [
       },
       {
         title:
-          "Методика: 'Guided Imagery and Music (GIM)' ('Керовані Уявлення та музика')",
+          "Методика: “Guided Imagery and Music (GIM)” (“Керовані Уявлення та музика”)",
         slug: "guided-imagery-and-music-gim",
         author_source:
           "Адаптовано за принципами наукових підходів: Bonny, H. L. (1978, 2002).",
@@ -2985,7 +2985,7 @@ export const PscyhoSectionMethodic = [
       },
       {
         title:
-          "Методика: 'Four-Drawing Art Therapy Trauma and Resiliency Protocol' (Арт-терапевтичний протокол із чотирьох малюнків для роботи з трамвою та розвитком стійкості)",
+          "Методика: ”Four-Drawing Art Therapy Trauma and Resiliency Protocol” (Арт-терапевтичний протокол із чотирьох малюнків для роботи з трамвою та розвитком стійкості)",
         slug: "four-drawing-art-therapy-trauma-and-resiliency-protocol",
         author_source:
           'Адаптовано за принципами наукових підходів:  Hass-Cohen, N., Bokoch, R., Clyde Findlay, J., & Banford Witting, A. (2018). "A Four-Drawing Art Therapy Trauma and Resiliency Protocol Study." The Arts in Psychotherapy.',
