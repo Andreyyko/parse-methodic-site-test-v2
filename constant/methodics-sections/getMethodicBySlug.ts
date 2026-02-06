@@ -1,10 +1,12 @@
 import { PscyhoSectionMethodic } from "@/constant/methodics-sections/PscyhoSectionMethodic";
 import { LifeSectionMethodic } from "@/constant/methodics-sections/LifeSectionMethodic";
+import { KidsSectionMethodic } from "@/constant/methodics-sections/KidsSectionMethodic";
 
 export async function getMethodicBySlug(slug: string) {
   const sections = [
     ...PscyhoSectionMethodic,
     ...LifeSectionMethodic,
+    ...KidsSectionMethodic
   ];
 
   for (const section of sections) {

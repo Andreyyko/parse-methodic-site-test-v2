@@ -79,6 +79,13 @@ export default async function MethodicDetailPage({ params }: PageProps) {
             />
           )}
           <InfoBlock title="Інструкція:" children={data.instruction} />
+          {data.completion && (
+            <InfoBlock
+              title="Завершення:"
+              children={data.completion}
+              className="w-full"
+            />
+          )}
           <div className="flex flex-col gap-4">
             <h3 className="heading-3 uppercase">запитання до рефлексії:</h3>
             <ListBlock items={data.reflection_questions ?? []} />
