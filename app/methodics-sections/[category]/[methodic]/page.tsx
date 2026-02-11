@@ -71,6 +71,13 @@ export default async function MethodicDetailPage({ params }: PageProps) {
               className="w-full md:w-4/5"
             />
           )}
+          {data.interpretation && (
+            <InfoBlock
+              title="Інтерпретація:"
+              children={data.interpretation}
+              className="w-full md:w-4/5"
+            />
+          )}
           {data.short_instruction && (
             <InfoBlock
               title="Інструкція коротка:"
