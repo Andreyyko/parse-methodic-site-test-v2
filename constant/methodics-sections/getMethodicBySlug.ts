@@ -2,13 +2,15 @@ import { PscyhoSectionMethodic } from "@/constant/methodics-sections/PscyhoSecti
 import { LifeSectionMethodic } from "@/constant/methodics-sections/LifeSectionMethodic";
 import { KidsSectionMethodic } from "@/constant/methodics-sections/KidsSectionMethodic";
 import { CommunicateMethodic } from "@/constant/methodics-sections/CommunicateMethodic";
+import { FamilyMethodic } from "@/constant/methodics-sections/FamilyMethodic";
 
 export async function getMethodicBySlug(slug: string) {
   const sections = [
     ...PscyhoSectionMethodic,
     ...LifeSectionMethodic,
     ...KidsSectionMethodic,
-    ...CommunicateMethodic
+    ...CommunicateMethodic,
+    ...FamilyMethodic
   ];
 
   for (const section of sections) {
