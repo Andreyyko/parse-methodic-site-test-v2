@@ -13,7 +13,7 @@ export const ParentsMethodic = [
     methods: [
       {
         title: "Три стискання руки",
-        slug: "try-styskannya-ruky-parents",
+        slug: "try-styskanya-ruky-parents",
         author_source: "Андрейко, Б. В. (2026)",
         approach:
           "Психологія прив’язаності; тілесно-орієнтований підхід; Brief Solution-Focused Therapy; ресурсно-орієнтована психотерапія; усвідомлене батьківство.",
