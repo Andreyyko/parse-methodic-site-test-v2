@@ -3,6 +3,7 @@ import { LifeSectionMethodic } from "./LifeSectionMethodic";
 import { KidsSectionMethodic } from './KidsSectionMethodic'
 import { CommunicateMethodic } from './CommunicateMethodic'
 import { FamilyMethodic } from './FamilyMethodic'
+import { ParentsMethodic } from './ParentsMethodic'
 
 export async function getMethodicsSectionsBySlug(category: string) {
   const sections = [
@@ -10,7 +11,8 @@ export async function getMethodicsSectionsBySlug(category: string) {
     ...LifeSectionMethodic,
     ...KidsSectionMethodic,
     ...CommunicateMethodic,
-    ...FamilyMethodic
+    ...FamilyMethodic,
+    ...ParentsMethodic
   ];
   console.log("FETCH category:", category);
 

@@ -3,6 +3,7 @@ import { LifeSectionMethodic } from "@/constant/methodics-sections/LifeSectionMe
 import { KidsSectionMethodic } from "@/constant/methodics-sections/KidsSectionMethodic";
 import { CommunicateMethodic } from "@/constant/methodics-sections/CommunicateMethodic";
 import { FamilyMethodic } from "@/constant/methodics-sections/FamilyMethodic";
+import { ParentsMethodic } from "@/constant/methodics-sections/ParentsMethodic";
 
 export async function getMethodicBySlug(slug: string) {
   const sections = [
@@ -10,7 +11,8 @@ export async function getMethodicBySlug(slug: string) {
     ...LifeSectionMethodic,
     ...KidsSectionMethodic,
     ...CommunicateMethodic,
-    ...FamilyMethodic
+    ...FamilyMethodic,
+    ...ParentsMethodic
   ];
 
   for (const section of sections) {
