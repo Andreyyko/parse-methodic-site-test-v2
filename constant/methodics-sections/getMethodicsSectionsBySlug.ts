@@ -1,9 +1,10 @@
 import { PscyhoSectionMethodic } from "./PscyhoSectionMethodic";
 import { LifeSectionMethodic } from "./LifeSectionMethodic";
-import { KidsSectionMethodic } from './KidsSectionMethodic'
-import { CommunicateMethodic } from './CommunicateMethodic'
-import { FamilyMethodic } from './FamilyMethodic'
-import { ParentsMethodic } from './ParentsMethodic'
+import { KidsSectionMethodic } from "./KidsSectionMethodic";
+import { CommunicateMethodic } from "./CommunicateMethodic";
+import { FamilyMethodic } from "./FamilyMethodic";
+import { ParentsMethodic } from "./ParentsMethodic";
+import { UncommunicateMethodic } from "./UnCommunicateMethodic";
 
 export async function getMethodicsSectionsBySlug(category: string) {
   const sections = [
@@ -12,7 +13,8 @@ export async function getMethodicsSectionsBySlug(category: string) {
     ...KidsSectionMethodic,
     ...CommunicateMethodic,
     ...FamilyMethodic,
-    ...ParentsMethodic
+    ...ParentsMethodic,
+    ...UncommunicateMethodic
   ];
   console.log("FETCH category:", category);
 
