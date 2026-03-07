@@ -1,10 +1,10 @@
 export const UncommunicateMethodic = [
   {
     category: "uncommunicate",
-    title: "Для розвитку комунікативних навичок осіб з порушенням мовлення",
+    title: "Для розвитку психічних процесів та комунікативних навичок дітей з особливими освітніми потребами та з порушенням мовлення",
     subtitle:
-      "Технології розвитку комунікативних компетенцій осіб та дітей з порушенням мовлення.",
-    mobtitle: "Для розвитку комунікативних навичок осіб з порушенням мовлення",
+      "",
+    mobtitle: "Для розвитку психічних процесів та комунікативних навичок дітей з особливими освітніми потребами та з порушенням мовлення",
     heroImage: {
       url: "../../images/CommonImages/SectionsImageFrame/Uncommunicate.svg",
       alt: "uncommunicate",
@@ -38,11 +38,11 @@ export const UncommunicateMethodic = [
           "Що нового ти хотів би додати наступного разу?",
           "Хто або що підтримує тебе в твоїх цілях?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 1,
       },
       {
-        title: "MEMORY TREASURE BOX («СКАРБНИЧКА ПАМ’ЯТІ»)",
+        title: "МЕТОДИКА / ГРА: MEMORY TREASURE BOX («СКАРБНИЧКА ПАМ’ЯТІ»)",
         slug: "memory-treasure-box",
         author_source:
           "Адаптовано за принципами наукових підходів: Holmes, J., Gathercole, S. E., & Dunning, D. L. (2009).",
@@ -71,7 +71,7 @@ export const UncommunicateMethodic = [
         id: 2,
       },
       {
-        title: "Balloon Bounce Game («Броунівський рух» / «Гра з кульками»)",
+        title: "МЕТОДИКА / ГРА: BALLOON BOUNCE GAME («БРОУНІВСЬКИЙ РУХ» / «ГРА З КУЛЬКАМИ»)",
         slug: "balloon-bounce-game",
         author_source:
           "Адаптовано за принципами наукових підходів: Lowenstein, L. (2006).",
@@ -96,12 +96,12 @@ export const UncommunicateMethodic = [
           "Які почуття з’являлись під час гри — радість, зосередженість, хвилювання?",
           "Як ця гра допомагає тренувати увагу та контроль?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 3,
       },
       {
         title:
-          "STATUE GAME / MUSICAL FREEZE («ВОСКОВА ФІГУРА» / «МУЗИЧНА ЗУПИНКА»)",
+          "МЕТОДИКА / ГРА: STATUE GAME / MUSICAL FREEZE («ВОСКОВА ФІГУРА» / «МУЗИЧНА ЗУПИНКА»)",
         slug: "statue-game-musical-freeze",
         author_source:
           "Адаптовано за принципами наукових підходів: Barnes, J. (2017).",
@@ -127,11 +127,11 @@ export const UncommunicateMethodic = [
           "Які почуття виникали, коли музика зупинялась?",
           "Як така гра може допомогти тобі бути уважним у школі чи вдома?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 4,
       },
       {
-        title: 'HIDDEN OBJECT GAME / "ПИЛЬНЕ ОКО"',
+        title: 'МЕТОДИКА / ГРА: HIDDEN OBJECT GAME / "ПИЛЬНЕ ОКО"',
         slug: "hidden-object-game-pilne-oko",
         author_source:
           "Адаптовано за принципами наукових підходів: Haddad, A. D. M., Viding, E., & Bruce, V. (2011).",
@@ -161,7 +161,7 @@ export const UncommunicateMethodic = [
       },
       {
         title:
-          "THROWING GAMES («ІГРИ З КИДАННЯМ» / АДАПТАЦІЯ ГРИ «ЛОВИ — НЕ ЛОВИ»)",
+          "МЕТОДИКА / ГРА: THROWING GAMES («ІГРИ З КИДАННЯМ» / АДАПТАЦІЯ ГРИ «ЛОВИ — НЕ ЛОВИ»)",
         slug: "throwing-games",
         author_source:
           "Адаптовано за принципами наукових підходів: García-Monge, A., Reigal, R. E., Morillo-Baro, J. P., Carrasco, L., & Hernández-Mendo, A. (2020).",
@@ -187,7 +187,7 @@ export const UncommunicateMethodic = [
           "Як уважність допомагала робити менше помилок?",
           "У яких ситуаціях у школі чи вдома потрібно так само швидко думати, як у грі?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 6,
       },
       {
@@ -218,12 +218,12 @@ export const UncommunicateMethodic = [
           "Які ігри чи рутини найбільше стимулюють мовлення дитини?",
           "Як ви можете продовжувати застосовувати EMT у щоденному житті дитини?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 7,
       },
       {
         title:
-          "SENSORY INTEGRATION THERAPY (SIT)/ ТЕРАПІЯ СЕНСОРНОЇ ІНТЕГРАЦІЇ",
+          "SENSORY INTEGRATION THERAPY (SIT)/ ТЕРАПІЯ СЕНСОРНОЇ ІНТЕГРАЦІЇ (АДАПТАЦІЯ ЗА AYRES, 1972)",
         slug: "sensory-integration-therapy",
         author_source:
           "Адаптовано за принципами наукових підходів: Ayres, A. J. (1972); Pfeiffer, B. A. (2011); Koenig, K. 2011; Kinnealey, M. (2011); Sheppard, M. (2011); Henderson, L. (2011); Wang, Y. (2024).",
@@ -248,11 +248,11 @@ export const UncommunicateMethodic = [
           "Чи хочеш ще раз пограти у цю гру завтра?",
           "Чи стало тобі спокійніше після вправи?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 8,
       },
       {
-        title: "FINE MOTOR PLAY FOR SPEECH AND LANGUAGE READINESS",
+        title: "FINE MOTOR PLAY FOR SPEECH AND LANGUAGE READINESS/ ДРІБНОМОТОРНІ ІГРИ ДЛЯ РОЗВИТКУ МОВЛЕННЯ",
         slug: "fine-motor-play-for-speech-and-language-readiness",
         author_source:
           "Адаптовано за принципами наукових підходів: NAPA Center (2023); Case-Smith, J. & O’Brien, J. C. (2015).",
@@ -278,11 +278,11 @@ export const UncommunicateMethodic = [
           "Як ти відчував свої пальчики після вправ?",
           "Яку вправу ти хотів би спробувати наступного разу?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 9,
       },
       {
-        title: "РОЗМОВНА КУЛЬКА",
+        title: "«РОЗМОВНА КУЛЬКА» (TALKING BALL / TALKING STICK TECHNIQUE)",
         slug: "talking-ball-talking-stick-technique",
         author_source:
           "Адаптовано за принципами наукових підходів: Rogers, C. R., & Freiberg, H. J. (1969); Gordon, T. (1970); Glasser, W. (1965).",
@@ -308,7 +308,7 @@ export const UncommunicateMethodic = [
           "Які теми викликали найбільший інтерес?",
           "Чого ти навчив(лася) під час гри?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 10,
       },
       {
@@ -338,11 +338,11 @@ export const UncommunicateMethodic = [
           "Чи вдалося тобі вгадати, що хотів сказати інший?",
           "Коли ще в житті ми спілкуємося без слів?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 11,
       },
       {
-        title: "СПІЛЬНИЙ МАЛЮНОК",
+        title: " «СПІЛЬНИЙ МАЛЮНОК» (COLLABORATIVE DRAWING TECHNIQUE / JOINT FAMILY DRAWING)",
         slug: "collaborative-drawing-technique-joint-family-drawing",
         author_source:
           "Адаптовано за принципами наукових підходів: Kwiatkowska, H. Y., Charles C. T. (1978); Wadeson, H. (1980).",
@@ -368,7 +368,7 @@ export const UncommunicateMethodic = [
           "Який елемент малюнка тобі найбільше подобається?",
           "Як цей досвід може допомогти у спілкуванні з людьми поза грою?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 12,
       },
       {
@@ -497,7 +497,7 @@ export const UncommunicateMethodic = [
         id: 16,
       },
       {
-        title: "PARK PLAY: A PICTURE DESCRIPTION TASK",
+        title: "PARK PLAY: A PICTURE DESCRIPTION TASK («ІГРИ В ПАРКУ: ЗАВДАННЯ НА ОПИС МАЛЮНКА»)",
         slug: "park-play-picture-description",
         author_source:
           "Адаптовано за принципами наукових підходів: Patel, R., Ming, J., Winkler, L., & Spencer, K. (2014).",
@@ -527,7 +527,7 @@ export const UncommunicateMethodic = [
         id: 17,
       },
       {
-        title: "ACQUISITION OF SINGULAR–PLURAL MORPHOLOGY",
+        title: "ACQUISITION OF SINGULAR–PLURAL MORPHOLOGY («ЗАСВОЄННЯ ФОРМ ОДНИНИ ТА МНОЖИНИ»)",
         slug: "acquisition-of-singular-plural-morphology",
         author_source:
           "Адаптовано за принципами наукових підходів: Wood, J. N., & Pinker, S. (2009).",
@@ -552,7 +552,7 @@ export const UncommunicateMethodic = [
           "Що спільного між словами, які закінчуються на -и, -і або -а?",
           "Як ця вправа допомагає мені краще говорити українською (або англійською)?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 18,
       },
       {
@@ -609,7 +609,7 @@ export const UncommunicateMethodic = [
           "Що ти дізнався про себе, коли продовжував ці речення?",
           "Як ця вправа допомагає краще розуміти свої думки й почуття?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 20,
       },
       {
@@ -639,7 +639,7 @@ export const UncommunicateMethodic = [
           "Чому деякі дієслова згадуються швидше, ніж інші?",
           "Як ця вправа допомагає краще говорити і думати швидше?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 21,
       },
       {
@@ -668,7 +668,7 @@ export const UncommunicateMethodic = [
           "Що допомагає помітити правильну зміну звуку?",
           "Яке слово стало «сходинкою» між двома іншими?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 22,
       },
       {
@@ -728,11 +728,11 @@ export const UncommunicateMethodic = [
           "Яке слово робить речення більш яскравим чи точним?",
           "Що допомагає швидше придумати закінчення речення?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 24,
       },
       {
-        title: "МОЄ СЛОВО-СВІТЛО",
+        title: "МЕТОДИКА / ГРА “МОЄ СЛОВО-СВІТЛО”",
         slug: "moe-slovo-svitlo",
         author_source:
           "Адаптовано з практик символічного малювання й технік позитивної психотерапії: Peseschkian, (1987).",
@@ -761,7 +761,7 @@ export const UncommunicateMethodic = [
         id: 25,
       },
       {
-        title: "ДЕРЕВО РОЗМОВ",
+        title: "МЕТОДИКА / ГРА ДЕРЕВО РОЗМОВ",
         slug: "derevo-rozmov",
         author_source:
           "Адаптовано з арт-терапевтичної техніки: «Дерево життя», White, (2007).",
@@ -791,7 +791,7 @@ export const UncommunicateMethodic = [
         id: 26,
       },
       {
-        title: "Моя історія в трьох малюнках",
+        title: "МЕТОДИКА / ГРА “МОЯ ІСТОРІЯ В ТРЬОХ МАЛЮНКАХ”",
         slug: "moya-istoriya-v-troh-malyunkah",
         author_source:
           "Адаптовано з наративної арт-терапії: Demetrio, (1996); Malchiodi, (2012).",
@@ -820,7 +820,7 @@ export const UncommunicateMethodic = [
         id: 27,
       },
       {
-        title: "Розмовне коло",
+        title: "«Розмовне коло» (Talking Circle / Circle Time)",
         slug: "talking-circle-circle-time",
         author_source:
           "Адаптовано за принципами наукових підходів: Alexander, R. (2008).",
@@ -848,7 +848,7 @@ export const UncommunicateMethodic = [
         id: 28,
       },
       {
-        title: "РИТМ-ДИХАННЯ-АРТИКУЛЯЦІЯ",
+        title: "МЕТОДИКА / ГРА “РИТМ-ДИХАННЯ-АРТИКУЛЯЦІЯ”",
         slug: "rytm-dykhannya-artykulatsiya",
         author_source:
           "Адаптовано за принципами наукових підходів: Luria, A. R. (1973).",
@@ -875,7 +875,7 @@ export const UncommunicateMethodic = [
         id: 29,
       },
       {
-        title: "Намалюй свій голос",
+        title: "МЕТОДИКА / ГРА “НАМАЛЮЙ СВІЙ ГОЛОС”",
         slug: "namalyuy-sviy-golos",
         author_source:
           "Адаптовано за принципами арт-терапевтичного підходу: Malchiodi, C. A. (2012. Handbook of Art Therapy)",
@@ -899,7 +899,7 @@ export const UncommunicateMethodic = [
           "Що змінилося у твоєму голосі після малювання?",
           "Яка фраза допомагає твоєму голосу бути сильним?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 30,
       },
       {
@@ -926,7 +926,7 @@ export const UncommunicateMethodic = [
           "Яку репліку я придумав би наступного разу?",
           "Що було найцікавішим у нашому спільному малюнку?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 31,
       },
       {
@@ -954,7 +954,7 @@ export const UncommunicateMethodic = [
           "Чим завершилась історія?",
           "Що мені сподобалось у моєму розповіданні?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 32,
       },
       {
@@ -1007,7 +1007,7 @@ export const UncommunicateMethodic = [
           "Як змінився мій голос, коли я говорив повільніше?",
           "Яке слово сьогодні вийшло найкраще?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 34,
       },
       {
@@ -1034,7 +1034,7 @@ export const UncommunicateMethodic = [
           "Як я пояснив слово інакше, коли не міг згадати?",
           "Що я сьогодні навчився/навчилась говорити швидше?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 35,
       },
       {
@@ -1113,11 +1113,11 @@ export const UncommunicateMethodic = [
           "Що допомагає — повільна вимова, дзеркало, повітря?",
           "Як звучить мій голос, коли я намагаюся буде дуже чітким?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 38,
       },
       {
-        title: "ДЗЕРКАЛЬНА РОЗМОВА",
+        title: "«ДЗЕРКАЛЬНА РОЗМОВА» (Mirror Speech Practice)",
         slug: "mirror-speech-practice",
         author_source:
           "Адаптовано за принципами наукових підходів: Van Riper, C. (1978).",
@@ -1144,7 +1144,7 @@ export const UncommunicateMethodic = [
         id: 39,
       },
       {
-        title: "СЛОВЕСНИЙ ЛАНЦЮЖОК",
+        title: "«СЛОВЕСНИЙ ЛАНЦЮЖОК» (Word Chain Articulation Game)",
         slug: "word-chain-articulation-game",
         author_source:
           "Адаптовано за принципами наукових підходів: Van Riper, C. (1978).",
@@ -1198,7 +1198,7 @@ export const UncommunicateMethodic = [
         id: 41,
       },
       {
-        title: "Мовленнєві детективи",
+        title: "«МОВЛЕННЄВІ ДЕТЕКТИВИ» (Speech Sound Detectives)",
         slug: "speech-sound-detectives",
         author_source:
           "Адаптовано за принципами наукових підходів: Gillon, G. T. (2000).",
@@ -1223,11 +1223,11 @@ export const UncommunicateMethodic = [
           "Як ти зрозумів, що знайшов «звук-втікача»?",
           "Чи хочеш бути детективом звуків ще раз?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 42,
       },
       {
-        title: "Чарівний мікрофон",
+        title: "«Чарівний мікрофон» (Magic Microphone)",
         slug: "magic-microphone",
         author_source:
           "Адаптовано за принципами наукових підходів: Onslow, M., Packman, A., & Harrison, E. (2003).",
@@ -1255,7 +1255,7 @@ export const UncommunicateMethodic = [
         id: 43,
       },
       {
-        title: "Емоції в голосі",
+        title: "«Емоції в голосі» (Emotions in Voice)",
         slug: "emotions-in-voice",
         author_source:
           "Адаптовано за принципами наукових підходів: Boone, D. R., McFarlane, S. C., Von Berg, S. L., & Zraick, R. I. (2020).",
@@ -1283,7 +1283,7 @@ export const UncommunicateMethodic = [
         id: 44,
       },
       {
-        title: "Мовленнєвий пазл",
+        title: "«Мовленнєвий пазл» (Speech Puzzle)",
         slug: "speech-puzzle",
         author_source:
           "Адаптовано за принципами наукових підходів: Hasson, N. (2012).",
@@ -1310,7 +1310,7 @@ export const UncommunicateMethodic = [
         id: 45,
       },
       {
-        title: "Говорить папуга",
+        title: "«Говорить папуга» (Talking Parrot)",
         slug: "talking-parrot",
         author_source:
           "Орієнтовано на принципи (fluency therapy), зокрема підходи: Onslow, M. (2002).",
@@ -1338,7 +1338,7 @@ export const UncommunicateMethodic = [
         id: 46,
       },
       {
-        title: "Регульоване дихання",
+        title: "«Регульоване дихання» (Controlled Breathing Technique)",
         slug: "controlled-breathing-technique",
         author_source:
           "Адаптовано за принципами наукових підходів: Van Riper, C. (1973).",
@@ -1365,7 +1365,7 @@ export const UncommunicateMethodic = [
         id: 47,
       },
       {
-        title: "Терапія, орієнтована на сильні сторони",
+        title: "Терапія, орієнтована на сильні сторони (Strength-BasedTherapy)",
         slug: "strength-based-therapy",
         author_source:
           "Адаптовано за принципами наукових підходів: Gilson, C. B. (2011). Strengths-Based Therapy: A Social Constructionist Perspective on Therapeutic Change; Андрейко, Б. В. (2018) Підхід розвиває ідеї позитивної психології (Seligman, 2004) та ресурсно-орієнтованої терапії (de Shazer, S., Berg, I. K., 1985), які акцентують увагу на внутрішніх силах людини, а не на її дефіцитах чи проблемах.",
@@ -1454,7 +1454,7 @@ export const UncommunicateMethodic = [
         id: 50,
       },
       {
-        title: "Відповідь на телефонний дзвінок",
+        title: "Відповідь на телефонний дзвінок (Answering the Telephone)",
         slug: "answering-the-telephone",
         author_source:
           "Адаптовано за принципами наукових підходів: Schopler, E.; Lansing, M.; Waters, L. (1992).",
@@ -1479,7 +1479,7 @@ export const UncommunicateMethodic = [
           "Чи було мені спокійно відповідати на дзвінок?",
           "Що допомогло мені впоратися з цим завданням?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 51,
       },
       {
@@ -2066,7 +2066,7 @@ export const UncommunicateMethodic = [
         id: 72,
       },
       {
-        title: "Ритмічне проговорювання складів",
+        title: "Ритмічне проговорювання складів (Rhythmic Syllable Chanting)",
         slug: "rhythmic-syllable-chanting",
         author_source:
           "Адаптовано за принципами наукових підходів: Orff, C. (1963); Keetman, G. (1970).",
@@ -2201,7 +2201,7 @@ export const UncommunicateMethodic = [
         id: 77,
       },
       {
-        title: "Сюжетно-рольова мовленнєва імпровізація",
+        title: "Сюжетно-рольова мовленнєва імпровізація (Role-Play Language Improvisation)",
         slug: "role-play-language-improvisation",
         author_source:
           "Адаптовано за принципами наукових підходів: Vygotsky, L. S. (1978); Smilansky, S. (1968).",
@@ -2309,7 +2309,7 @@ export const UncommunicateMethodic = [
         id: 81,
       },
       {
-        title: "Звукова майстерня",
+        title: "Звукова майстерня (Sound Workshop)",
         slug: "sound-workshop",
         author_source:
           "Адаптовано за принципами наукових підходів: Hayden, D. (2004); Kaiser, A. (2013).",
@@ -2386,7 +2386,7 @@ export const UncommunicateMethodic = [
           "У яких квадратах було найскладніше?",
           "Чи залишився звук правильним у реченні?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 84,
       },
       {
@@ -2655,7 +2655,7 @@ export const UncommunicateMethodic = [
           "Що змінилося у твоєму настрої після гри?",
           "Чи стало легше спілкуватися з іншими дітьми?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 94,
       },
       {
@@ -2684,7 +2684,7 @@ export const UncommunicateMethodic = [
           "Що допомогло тобі почути різницю між голосами?",
           "Чи сподобалося тобі говорити самому?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 95,
       },
       {
@@ -2719,7 +2719,7 @@ export const UncommunicateMethodic = [
         id: 96,
       },
       {
-        title: "Гра «Посмішка по колу» (адаптована версія для дітей з РАС)",
+        title: "Гра «Посмішка по колу» (адаптована версія для дітей з РАС) The Smile Circle Game – Autism-adapted version",
         slug: "the-smile-circle-game-autism-adapted-version",
         author_source: "Андрейко, Б. В.",
         approach:
@@ -2744,11 +2744,11 @@ export const UncommunicateMethodic = [
           "Що змінилося у твоєму настрої після гри?",
           "Кому тобі було найцікавіше передавати посмішку?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 97,
       },
       {
-        title: "Гра «Пересядьте всі, хто...»",
+        title: "Гра «Пересядьте всі, хто…» (Everyone Who… Game) — адаптована версія для дітей з РАС",
         slug: "everyone-who-game",
         author_source: "Андрейко, Б. В.",
         approach:
@@ -2832,12 +2832,12 @@ export const UncommunicateMethodic = [
           "Як ми можемо допомогти один одному, якщо хтось сумує?",
           "Що допомагає тобі, коли ти хочеш відчути спокій?",
         ],
-        completion: "Завершення",
+        completion: "Чому ця методика дуже ефективна для дітей з РАС: \n1. Є візуальна підтримка.\n2. Немає соціального тиску говорити.\n3. Розвиває емоційне розпізнавання, яке є складним для дітей з РАС.\n4. Дає структуру і передбачуваність.",
         id: 100,
       },
       {
         title: "Гра «Передай жест» (Pass the Gesture)",
-        slug: "pass-the-gesture",
+        slug: "pass-the-gesture-uncommunicate",
         author_source: "Андрейко, Б. В.",
         approach:
           "Ігрова терапія; розвиток соціальної взаємодії; розвиток імітаційних навичок; корекційно-розвивальні методики для дітей з РАС.",
@@ -2860,7 +2860,7 @@ export const UncommunicateMethodic = [
           "Чи було цікаво дивитися, як інші повторюють жест?",
           "Як ти почувався, коли жест дійшов до тебе?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 101,
       },
       {
@@ -2888,15 +2888,15 @@ export const UncommunicateMethodic = [
           "Чи було цікаво дивитися, як інші передають кульку?",
           "Що допомагає нам передавати предмет один одному?",
         ],
-        completion: "Завершення",
+        completion: "Чому ця методика особливо ефективна для дітей з РАС:\n• є чітка структура\n• є чергування ролей\n• є рух і предмет (що дуже важливо для сенсорної регуляції)\n• не потребує складного мовлення\n• формує основу соціальної взаємодії.",
         id: 102,
       },
       {
         title: "Гра «Бульбашки по колу» (Bubbles Around the Circle)",
         slug: "bubbles-around-the-circle",
-        author_source: "Андрейко, Б. В.",
+        author_source: "Андрейко, Б. В.Адаптовано за принципами наукових підходів: розвитку спільної уваги та ігрової взаємодії у дітей (Greenspan, S.; Social Emotional Learning).",
         approach:
-          "Адаптовано за принципами наукових підходів: розвитку спільної уваги та ігрової взаємодії у дітей (Greenspan, S.; Social Emotional Learning).",
+          "Ігрова терапія; розвиток спільної уваги; сенсорна регуляція; корекційно-розвивальні методики для дітей з РАС.\nStanley Greenspan\nУ підході DIR/Floortime бульбашки використовувалися для:\n• розвитку спільної уваги (joint attention)\n• формування очікування та чергування (turn-taking)\n• стимуляції соціальної ініціативи\n• створення емоційно позитивного контакту",
         target_audience: "3–8 років (у тому числі діти з РАС).",
         goal: "Розвивати спільну увагу, навички чергування, контроль дихання та позитивну соціальну взаємодію.",
         purpose:
@@ -2915,7 +2915,7 @@ export const UncommunicateMethodic = [
           "Що тобі сподобалося найбільше?",
           "Як ти почувався, коли робив бульбашки?",
         ],
-        completion: "Завершення",
+        completion: "Бульбашки — це одна з найкращих терапевтичних ігор для дітей з РАС, тому що вони одночасно стимулюють:\n• дихання\n• увагу\n• соціальний контакт\n• сенсорне задоволення.",
         id: 103,
       },
       {
@@ -2943,7 +2943,7 @@ export const UncommunicateMethodic = [
           "Що нового ти побачив?",
           "Як ти почувався, коли відкривав коробку?",
         ],
-        completion: "Завершення",
+        completion: null,
         id: 104,
       },
       {
@@ -2960,7 +2960,7 @@ export const UncommunicateMethodic = [
           "розвиток спільної уваги; формування навички очікування своєї черги; розвиток дослідницької поведінки; підтримка соціальної взаємодії; зниження тривожності через передбачувану структуру гри.",
         time: "5–7 хвилин.",
         materials:
-          "Невелика тканина або хустинка; 5 простих предметів або маленьких іграшок.",
+          "Невелика тканина або хустинка; 5 простих предметів або маленьких іграшок.\nДля дітей з РАС важливо використовувати предмети, які не створюють різких звуків, не мають надмірно яскравого світла і є приємними на дотик.\nПриклади безпечних предметів:\nмаленький м’який м’ячик\nневелика машинка\nфігурка тварини\nм’яка маленька іграшка\nдерев’яний кубик\nіграшкова ложечка\nмаленький м’який кубик\nіграшковий фрукт\nневеликий конструкторний елемент\nсенсорний м’ячик.",
         short_instruction: null,
         instruction:
           "Крок 1. Підготовка простору.\nДіти сідають у коло або за столом так, щоб добре бачити предмети. Педагог кладе на стіл кілька предметів (приблизно 4–5) і накриває їх хустинкою.\nКрок 2. Створення інтересу.\nПедагог говорить спокійним голосом:\n«Під хустинкою заховалися різні предмети».\nВажливо зробити невелику паузу, щоб підтримати цікавість дітей.\nКрок 3. Запрошення до взаємодії.\nПедагог запитує:\n«Хто хоче подивитися, що там?»\nОдна дитина по черзі підходить до столу.\nКрок 4. Відкриття сюрпризу.\nДитина піднімає хустинку і бачить кілька предметів.\nПедагог може сказати:\n«Подивись, що тут є. Обери один предмет».\nКрок 5. Вибір предмета.\nДитина обирає один предмет і показує його іншим дітям.\nПедагог допомагає словами:\n«Подивіться, що обрав(ла) Марійка. Це машинка».\nКрок 6. Повернення хустинки.\nПедагог знову накриває предмети хустинкою і передає можливість наступній дитині.\nКрок 7. Продовження гри.\nКожна дитина по черзі відкриває хустинку і обирає один предмет.\nКрок 8. Правило безпеки.\nЯкщо дитина не хоче відкривати хустинку або обирати предмет, вона може просто спостерігати. Участь відбувається у комфортному для дитини темпі.\nКрок 9. Завершення.\nКоли всі діти мали можливість відкрити хустинку, педагог підсумовує:\n«Ми разом дізнавалися, що заховалося під хустинкою».",
@@ -2972,7 +2972,7 @@ export const UncommunicateMethodic = [
           "Який предмет був для тебе найцікавішим?",
           "Чи було цікаво відкривати сюрприз?",
         ],
-        completion: "Завершення",
+        completion: "Примітка для фахівця: \nДля дітей з РАС важливо використовувати прості, знайомі та сенсорно комфортні предмети. Передбачувана структура гри, можливість вибору і чергування допомагають підтримувати відчуття безпеки та сприяють розвитку спільної уваги.",
         id: 105,
       },
     ],
