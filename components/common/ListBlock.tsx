@@ -1,26 +1,35 @@
 type ReflectionQuestionsProps = {
-    items: string[];
-    variant?: "dots" | "numbers";
-  };
-  
-  export default function ReflectionQuestions({
-    items,
-    variant = "dots",
-  }: ReflectionQuestionsProps) {
-    const ListTag = variant === "numbers" ? "ol" : "ul";
-  
-    return (
-      <div>
-        <ListTag
-          className={`pl-5 heading-4 body-text ${
-            variant === "numbers" ? "list-decimal" : "list-disc"
-          }`}
-        >
-          {items.map((q, index) => (
-            <li key={index}>{q}</li>
-          ))}
-        </ListTag>
-      </div>
-    );
-  }
-  
+  items: string[];
+  variant?: "dots" | "numbers";
+};
+
+export default function ReflectionQuestions({
+  items,
+  variant = "dots",
+}: ReflectionQuestionsProps) {
+  const ListTag = variant === "numbers" ? "ol" : "ul";
+
+  return (
+    <div>
+      <ListTag
+        className={`pl-5 heading-4 body-text ${
+          variant === "numbers" ? "list-decimal" : "list-disc"
+        }`}
+      >
+        {items.map((q, index) => {
+          const isTitle = q.endsWith(":");
+
+          if (isTitle) {
+            return (
+              <li key={index} className="list-none font-semibold mt-4">
+                {q}
+              </li>
+            );
+          }
+
+          return <li key={index}>{q}</li>;
+        })}
+      </ListTag>
+    </div>
+  );
+}

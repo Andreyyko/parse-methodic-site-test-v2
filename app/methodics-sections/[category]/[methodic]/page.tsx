@@ -59,11 +59,20 @@ export default async function MethodicDetailPage({ params }: PageProps) {
           )}
         </div>
         <div className="flex flex-col w-full md:w-1/2 gap-12.5 md:gap-20">
-          <InfoBlock
-            title={"Терапевтичний ефект:"}
-            children={data.therapeutic_effect}
-            className="w-full md:w-4/5"
-          />
+        {data.therapeutic_effect && (
+            <InfoBlock
+              title="Терапевтичний ефект:"
+              children={data.therapeutic_effect}
+              className="w-full md:w-4/5"
+            />
+          )}
+          {data.time && (
+            <InfoBlock
+              title="Час виконання:"
+              children={data.time}
+              className="w-full md:w-4/5"
+            />
+          )}
           {data.materials && (
             <InfoBlock
               title="Матеріали:"
